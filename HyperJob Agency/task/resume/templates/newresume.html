@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a resume</title>
+</head>
+<body>
+<div class="container">
+    <form method="POST" action="">
+      <fieldset>
+        <legend>Creating a new resume</legend>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+    </form>
+</div>
+</body>
+</html>
