@@ -10,7 +10,5 @@ build
 .idea
 
 # old stages
-/Data Analysis for Hospitals/*
-!/Data Analysis for Hospitals/task/
-/Data Analysis for Hospitals/task/*
-!/Data Analysis for Hospitals/task/analysis.py
+/HyperJob Agency/*
+!/HyperJob Agency/task/
